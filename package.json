@@ -1,0 +1,15 @@
+{
+  "name": "calculator-test",
+  "version": "1.0.0",
+  "description": "Tests for a calculator module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --experimental-vm-modules test/calculator.js"
+  },
+  "author": "Parsa Majdol Hosseini",
+  "license": "",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
+  }
+}
